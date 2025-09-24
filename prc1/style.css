@@ -1,0 +1,82 @@
+#heading{
+    text-align: center;
+    
+}
+#btn_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+    
+}
+body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; 
+      align-items: center;   
+      background-color: #f4e4ba; 
+    }
+   .container{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 800px;
+    height: 300px ;
+    text-align: center;
+   }
+   #js {
+   background-color: #f3dd3e;       
+  color: #222;                    
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#js:hover {
+  background-color: #e6cb2c;       
+  transform: scale(1.05);
+}
+
+#java {
+  background-color: #f3dd3e;       
+  color: #222;                     
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#java:hover {
+  background-color: #e6cb2c;       
+  transform: scale(1.05);
+}
+
+#python {
+  background-color: #f3dd3e;       
+  color: #222;                     
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#python:hover {
+ background-color: #e6cb2c;       
+  transform: scale(1.05);
+}
