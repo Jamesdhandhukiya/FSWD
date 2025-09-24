@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.menu-btn {
+  background-color: #d36b6b;
+  color: white;
+  font-size: 24px;
+  border: none;
+  padding: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.sidebar {
+  background-color: #b3a0dc;
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-btn {
+  background-color: #c2b5e0;
+  color: white;
+  margin: 5px 0;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+h1 {
+  font-weight: bold;
+}
